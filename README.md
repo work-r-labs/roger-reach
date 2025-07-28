@@ -5,7 +5,7 @@ This repo contains code which demonstrates IsaacSim's interactive abilities. The
 ## Video Tutorial
 Link: https://youtu.be/mPkc4EAjpZU
 
-<iframe width="1296" height="729" src="https://www.youtube.com/embed/mPkc4EAjpZU" title="Workr Labs - Isaac Interactive Cell Design" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Tutorial Video Thumbnail](docs/Interactive_Cell_Design.png)](https://youtu.be/mPkc4EAjpZU)
 
 ## Quickstart
 

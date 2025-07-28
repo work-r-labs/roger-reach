@@ -59,7 +59,8 @@ class PyRoKiPlanner:
         return self._batched_ik(target_wxyz, target_position, previous_q)
 
 
-robot_library = Path.home() / "robots"
+project_root = Path(__file__).parent
+robot_library = project_root / "robots/library"
 
 robot_urdf_path = robot_library / "library/ABB/CRB15000_10kg_152_v1/CRB15000_10kg_152.urdf" 
 assert robot_urdf_path.exists(), f"{robot_urdf_path} not exist"

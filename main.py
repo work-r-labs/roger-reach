@@ -3,6 +3,9 @@ import numpy as np
 from pathlib import Path
 from isaacsim import SimulationApp
 from typing import Generator
+from scipy.spatial.transform import Rotation as R
+from ik_client import IKClient
+import spatial_utils as su
 
 simuluation_app = SimulationApp({"headless": False})
 
@@ -10,9 +13,6 @@ from isaacsim.core.utils.stage import add_reference_to_stage
 from isaacsim.core.api import World
 from isaacsim.core.prims import SingleArticulation, XFormPrim
 from isaacsim.core.utils.types import ArticulationAction
-from ik_client import IKClient
-from scipy.spatial.transform import Rotation as R
-import spatial_utils as su
 
 np.set_printoptions(suppress=True)
 
@@ -63,6 +63,7 @@ target_prim_paths: list[str] = [
     f"{scene_prim_path}/stand0/target",
     f"{scene_prim_path}/tote2/target",
     f"{scene_prim_path}/tote1/target",
+    f"{scene_prim_path}/tote3/target",
     f"{scene_prim_path}/conv/target"
 ]
 
@@ -86,6 +87,7 @@ class Action:
             return None
 
 ik_client = IKClient()
+
 
 def action_generator() -> Generator[Action, None, None]:
     for target_prim_path in target_prim_paths:

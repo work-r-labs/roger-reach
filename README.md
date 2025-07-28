@@ -1,14 +1,12 @@
-# Interactive Reachability Tool
+# Interactive Reachability Tool Demo
+
+This repo contains code which demonstrates IsaacSim's interactive abilities. The user can drag crates and conveyor belts around the cell and watch how the robot would reach to it.
 
 ## Install
 
 ```bash
-# to get the robot assets
-git clone https://github.com/work-r-labs/robots.git
-
-
-# clone this repository
-git clone https://github.com/work-r-labs/roger-reach.git
+# clone this repository (recurse submodules to get robot assets and isaacsim intellisense)
+git clone --recurse-submodules https://github.com/work-r-labs/roger-reach.git
 cd roger-reach
 
 uv venv

@@ -2,7 +2,12 @@
 
 This repo contains code which demonstrates IsaacSim's interactive abilities. The user can drag crates and conveyor belts around the cell and watch how the robot would reach to it.
 
-## Install
+## Video Tutorial
+Link: https://youtu.be/mPkc4EAjpZU
+
+<iframe width="1296" height="729" src="https://www.youtube.com/embed/mPkc4EAjpZU" title="Workr Labs - Isaac Interactive Cell Design" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Quickstart
 
 ```bash
 # clone this repository (recurse submodules to get robot assets and isaacsim intellisense)

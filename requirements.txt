@@ -1,0 +1,3 @@
+git+https://github.com/chungmin99/pyroki.git
+fastapi
+uvicorn

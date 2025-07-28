@@ -1,0 +1,6 @@
+[submodule "isaacsim_typings"]
+	path = isaacsim_typings
+	url = https://github.com/work-r-labs/isaacsim_typings.git
+[submodule "robots"]
+	path = robots
+	url = https://github.com/work-r-labs/robots.git
